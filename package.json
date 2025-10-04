@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/vercel": "^8.2.8",
     "@discordjs/builders": "^1.11.3",
     "@discordjs/rest": "^2.6.0",
     "astro": "^5.14.1",

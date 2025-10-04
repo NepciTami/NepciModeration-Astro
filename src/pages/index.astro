@@ -1,0 +1,29 @@
+---
+import startBot from '../lib/index';
+
+try {
+    await startBot();
+    console.log('Discord bot started successfully!');
+} catch (error) {
+    console.error('Failed to start Discord bot:', error);
+}
+
+import config from '../lib/config.json' assert { type: 'json' };
+
+// {
+//     "botActivity": {
+//         "type": "WATCHING",
+//         "text": "the server!"
+//     },
+//     "clientId": "1012458978116124773",
+//     "guildId": "813737708571852823",
+//     "clientName": "NepciModeration"
+// }
+
+---
+<!DOCTYPE html>
+<html>
+	<body>
+		{config.clientName} is <span>{config?.botActivity?.type}</span> <span>{config?.botActivity?.text}</span>
+	</body>
+</html>

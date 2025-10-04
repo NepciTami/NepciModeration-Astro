@@ -1,0 +1,23 @@
+{
+  "name": "tested-tower",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@discordjs/builders": "^1.11.3",
+    "@discordjs/rest": "^2.6.0",
+    "astro": "^5.14.1",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.38.26",
+    "discord.js": "^14.22.1",
+    "pogger": "^0.0.8",
+    "typescript": "^5.9.3",
+    "zod": "^3.24.1"
+  }
+}
